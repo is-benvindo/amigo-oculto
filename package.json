@@ -1,0 +1,31 @@
+{
+  "name": "amigo-oculto",
+  "version": "1.0.0",
+  "description": "Sistema para gerenciar amigo oculto",
+  "main": "src/index.ts",
+  "repository": "https://github.com/is-benvindo/amigo-oculto.git",
+  "author": "izzy",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "amigo-oculto": "file:",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "data-source": "^5.3.2",
+    "express": "^4.21.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.13.1",
+    "pg-hstore": "^2.3.4",
+    "reflect-metadata": "^0.2.2",
+    "sequelize": "^6.37.5",
+    "typeorm": "^0.3.20"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
